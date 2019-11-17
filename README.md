@@ -49,7 +49,7 @@ Instant Health Solution: Instant Health allows for patients to view their Health
 
 #### Visualizing Our Solution
 Our first step was to make a Wireframe of the flow for Instant Health. We knew there needed to be a Health Professional viewpoint to insert Patient Data into the database and a Patient viewpoint for Patients to view their Health History. To ensure both options were viewed on the homepage, we decided to create two buttons on the Home Page: Login As Patient & Login As Doctor.
-<p class="center">
+<p align="center">
       <img height=" 200px" width="300px" src = "/images/patientview.gif" alt = "patient viewpoint">
        Prototype created using Adobe XD
 </p>
