@@ -3,9 +3,7 @@
   <img src="/doctor.png" height= "420" width="600"/>
 </p>
 
-**[View Instant Health](https://saharafathelbab.github.io/portfolio/documentation/InstantHealth/Hackattack2018/Hackattack-Home.html?)**
-<br> 
-**[View Instant Health Documentation](https://saharafathelbab.github.io/portfolio/documentation/InstantHealth/InstantHealthInfo.html?)**
+**[View Instant Health](https://saharafathelbab.github.io/Instant-Health/documentation/InstantHealth/Hackattack2018/Hackattack-Home.html?)**
 
 #### General Information
 
@@ -51,9 +49,11 @@ Instant Health Solution: Instant Health allows for patients to view their Health
 Our first step was to make a Wireframe of the flow for Instant Health. We knew there needed to be a Health Professional viewpoint to insert Patient Data into the database and a Patient viewpoint for Patients to view their Health History. To ensure both options were viewed on the homepage, we decided to create two buttons on the Home Page: Login As Patient & Login As Doctor.
 <p align="center">
       <img height=" 200px" width="300px" src = "/images/patientview.gif" alt = "patient viewpoint">
+  <br/>
+  Prototype created using Adobe XD
 </p>
 
-Prototype created using Adobe XD
+
 
 Above is the Prototype I created for the Patient viewpoint based on the wireframe we sketched. If the Patient already has an account set up, they just have to enter their email and password to access their Health History. If they do not have an account, they must enter the key provided to to them by their Primary Care Doctor, and their email and password they would like to associate their account with.
 <br/>
