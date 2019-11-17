@@ -3,7 +3,7 @@
   <img src="/doctor.png" height= "420" width="600"/>
 </p>
 
-**[View Instant Health](https://saharafathelbab.github.io/Instant-Health/documentation/InstantHealth/Hackattack2018/Hackattack-Home.html?)**
+**[View Instant Health](https://saharafathelbab.github.io/Instant-Health/Hackattack2018)**
 
 #### General Information
 
