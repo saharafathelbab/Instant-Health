@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title> Login - Patient </title>
+    <link rel = "stylesheet" href = "./CSS/home.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+  </head>
+
+  <body>
+    <h2> Existing Patient </h2>
+    <div class = "full">
+      <form action="info.html" method="post">
+        <label for="uname"><b>Username:</b></label>
+        <br>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+        <br>
+        <br>
+        <label for="psw"><b>Password:</b></label>
+        <br>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <br>
+        <br>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+        <br>
+        <br>
+        <button type="submit" class = "button-style">Login</button>
+        <br>
+        <br>
+      </form>
+      <form action = "newpatient.html">
+        <input type = "submit" value = "Not A Patient?" class = "button-style"/>
+      </form>
+     </div>
+  </body>

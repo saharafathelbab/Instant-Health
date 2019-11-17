@@ -1,0 +1,125 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url('../image/rawpixel-602153-unsplash2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header/Logo Title */
+.header {
+    background-color: #ffffff;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 2%;
+    position: relative;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    height: 71px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+/*Page Title */
+  .title {
+      color: #707070;
+      font-size: 55px;
+      left: 20px;
+      padding-bottom: 20px;
+      position: relative;
+      text-align: left;
+    }
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+    background-color: #ffffff;
+    opacity: 0.9;
+    left: 20px;
+    position: relative;
+    width: 90%;
+}
+
+/* Bordered thank you form */
+.thankyou {
+    border: 3px solid #f1f1f1;
+    background-color: #ffffff;
+    opacity: 0.9;
+    left: 20px;
+    bottom: -100px;
+    position: relative;
+    width: 90%;
+}
+
+.paragraph{
+  padding: 0 2%;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=email], input[type=name], input[type=home], input[type=practice], input[type=practiceadd], input[type=license] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #C33B3B;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+a:link, a:visited, a:active {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.floating{
+  float: right;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}

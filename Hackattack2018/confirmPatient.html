@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Confirm patient</title>
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="scripts.js"></script>
+    <style>
+            table {
+        width:100%;
+      }
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th, td {
+        padding: 15px;
+        text-align: left;
+      }
+      table#t01 tr:nth-child(even) {
+        background-color: #eee;
+      }
+      table#t01 tr:nth-child(odd) {
+       background-color: #fff;
+      }
+      table#t01 th {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+  <div class="page-description">
+
+      <p> In order to account for duplicated names, please choose the correct patient by address </p>
+  </div>
+
+<h2>Select Patient</h2>
+
+<table id="t01">
+  <tr>
+    <th>Last Name</th>
+    <th>First Name</th>
+    <th>Address<th>
+  </tr>
+  <tr>
+    <td>Persaud</td>
+    <td>Avinash</td>
+    <td>205-34 134st Flushing NY, 11367</td>
+  </tr>
+  <tr>
+    <td>Persaud</td>
+    <td>Jessica</td>
+    <td>97-16 210st Queens Village,NY 11097</td>
+  </tr>
+  <tr>
+    <td><a href="personData.html">Persaud</a></td>
+    <td>Anil</td>
+    <td>14-76 120st Elmhurst, NY 11297</td>
+  </tr>
+</table>
+
+
+  </body>
+</html>

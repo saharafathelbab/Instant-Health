@@ -1,0 +1,55 @@
+.home{
+  background-image: url('../image/doctor.png');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.main ul li {
+    width: 150px;
+    height: 100px;
+}
+
+.main ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.button-style{
+  background-color: #FF7676;
+  border: none;
+  height: 40px;
+  width: 200px;
+  font-family: 'Playfair Display SC', serif;
+  color: white;
+}
+
+.button-style:hover{
+  background-color: white;
+  color: #FF7676;
+  border-style: solid;
+}
+.me{
+  background-color: #EAEAEA;
+  height: 100px;
+}
+
+.logout{
+  float: right;
+}
+
+.name{
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bold;
+}
+
+.address{
+  font-family: 'Playfair Display SC', serif;
+}
+
+.list{
+  background-color: #FDDDDD;
+  height: 160px;
+}

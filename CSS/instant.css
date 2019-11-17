@@ -1,0 +1,169 @@
+.firstmain{
+  background-image: url('../images/doc.png');
+  background-repeat: no-repeat;
+  height: 700px;
+}
+.icon{
+  height:50px;
+  width: 50px;
+}
+
+.top_order ul li {
+    width: 700px;
+    height: 40px;
+}
+
+.top_order ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.top_order_last ul li {
+    width: 700px;
+    height: 100px;
+}
+
+.top_order_last ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+#right{
+  text-align: left;
+  padding-left: 40px;
+}
+
+.para{
+  font-family: 'El Messiri', sans-serif;
+  font-size: 16px;
+}
+.answer{
+  font-family: 'Cardo', serif;
+  font-size: 14px;
+}
+.icon_bottom{
+  height:70px;
+  width: 70px;
+}
+
+.question{
+    font-family: 'Playfair Display SC', serif;
+}
+
+.read_more{
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+}
+
+.para_caption{
+  font-family: 'El Messiri', sans-serif;
+  font-size: 12px;
+}
+
+.heading_lead_smaller{
+  font-family: 'Caveat', cursive;
+  font-size: 23px;
+  }
+.links_icon{
+  text-decoration: none;
+  color: black;
+  font-family: 'El Messiri', sans-serif;
+  font-size: 16px;
+
+}
+.extra{
+  display:none;
+}
+.extra_no{
+  display:none;
+}
+.extra_three{
+  display:none;
+}
+.extra_four{
+  display:none;
+}
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 794px){
+  .extra{
+    display:block;
+  }
+}
+@media screen and (max-width: 737px){
+
+.top_order ul li {
+    width: 700px;
+    height: 50px;
+}
+
+}
+@media screen and (max-width: 547px){
+
+.top_order ul li {
+    width: 700px;
+    height: 70px;
+}
+
+}
+
+@media screen and (max-width: 794px){
+  .extra{
+    display:block;
+  }
+}
+
+@media screen and (max-width: 609px){
+  .gif{
+    height: 200px;
+    width: 300px;
+  }
+  }
+}
+
+@media screen and (max-width: 737px){
+
+.top_order ul li {
+    width: 700px;
+    height: 50px;
+}
+
+}
+@media screen and (max-width: 547px){
+
+.top_order ul li {
+    width: 700px;
+    height: 70px;
+}
+
+}
+
+
+@media screen and (max-width: 572px){
+  .extra_no{
+    display:block;
+  }
+}
+
+@media screen and (max-width: 449px){
+  .extra_three{
+    display:block;
+  }
+}
+
+@media screen and (max-width: 418px){
+
+.top_order ul li {
+  width: 700px;
+  height: 90px;
+}
+
+}
+
+@media screen and (max-width: 411px){
+  .extra_four{
+    display:block;
+  }
+}
